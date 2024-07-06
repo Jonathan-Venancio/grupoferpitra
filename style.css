@@ -37,7 +37,11 @@ body{
     transform: scale(1.08);
 }
 
-
+h2.titulo{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
 
 /* ESTILO CABECALHO */
 header{
@@ -131,4 +135,22 @@ section.sobre .flex{
 .sobre .txt-sobre p{
     margin: 20px 0;
     text-align: justify;
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+section.serviços{
+    padding: 40px 4%;
+}
+
+section.serviços .serviços-box{
+    color: black;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.serviços .serviços-box p{
+    text-align: justify;
+    margin: 20px 0;
 }
