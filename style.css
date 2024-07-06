@@ -85,18 +85,50 @@ section.topo-do-site .flex{
     gap: 90px;
 }
 
+.topo-do-site .btn-contato{
+    margin-left: 170px;
+}
+
 .topo-do-site h1{
     color: black;
     font-size: 50px;
     line-height: 40px;
+    text-align: center;
 }
 
 .topo-do-site h3{
     color: black;
     font-size: 30px;
+    text-align: center;
 }
 
 .topo-do-site .txt-topo-site p{
     color: black;
     margin: 40px 0;
+    text-align: justify;
+}
+
+/* ESTILO SOBRE */
+section.sobre{
+    padding: 100px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: black;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
 }
