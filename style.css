@@ -18,6 +18,7 @@ body{
 
 .flex{
     display: flex;
+    justify-content: space-between;
 }
 
 .btn-contato button{
@@ -137,7 +138,38 @@ section.sobre .flex{
     text-align: justify;
 }
 
-/* ESTILO DAS ESPECIALIDADES */
+/* ESTILO DO CEO */
+section.CEO{
+    padding: 40PX 4%;
+}   
+
+section.CEO .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+.CEO h1{
+    color: black;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.CEO h3{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.CEO .txt-CEO p{
+    color: black;
+    margin: 40px 0;
+    text-align: justify;
+}
+
+/* ESTILO DOS SERVIÇOS */
 section.serviços{
     padding: 40px 4%;
 }
@@ -153,4 +185,29 @@ section.serviços .serviços-box{
 section.serviços .serviços-box p{
     text-align: justify;
     margin: 20px 0;
+}
+
+/* ESTILO DOS CONTATOS */
+section.contatos{
+    padding: 40px 4%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.contatos .contatos-box{
+    color: black;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.contatos .contatos-box p{
+    text-align: center;
+    margin: 20px 0;
+}
+
+section.contatos .contatos-box p span{
+    display: block;
 }
