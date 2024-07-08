@@ -33,7 +33,7 @@ body{
     transition: .2s;
 }
 
-.btn-contato button:hover{
+button:hover{
     box-shadow: 0px 0px 8px #a84849;
     transform: scale(1.08);
 }
@@ -210,4 +210,37 @@ section.contatos .contatos-box p{
 
 section.contatos .contatos-box p span{
     display: block;
+}
+
+.contatos .contatos-box .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    border: none;
+    background-color: #a84849;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 30px 4%;
+    box-shadow: 0 0 40px 10px rgba(107, 107, 107, 0.231);
+    text-align: center;
+}
+
+footer .line-footer p{
+    font-size: 20px;
+}
+
+footer .line-footer-baixo p{
+    font-size: 10px;
+}
+
+footer .line-footer-baixo a{
+    color: black;
+    text-decoration: none;
 }
