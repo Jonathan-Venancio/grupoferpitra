@@ -20,6 +20,9 @@
     <!--Final lodo no navegador-->
 
     <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
 </head>
 <body>
     
@@ -40,6 +43,28 @@
                 </ul>
 
             </nav>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#sobre">Quem Somos</a></li>
+                        <li><a href="index.html#serviços">Serviços</a></li>
+                        <li><a href="#contatos">Contactos</a></li>
+                    </ul>
+                </nav>
+
+            </div><!-- menu-mobile -->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
 
         </div><!--interface-->
     </header>

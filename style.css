@@ -65,7 +65,7 @@ header a{
     display: inline-block;
 }
 
-header a:hover{
+header nav.menu-desktop a:hover{
     color: black;
     transform: scale(1.08);
     transition: .2s;
@@ -75,11 +75,77 @@ header nav ul{
     list-style-type: none;
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0 40px;
     font-size: 20px;
 }
+
+/* ESTILO MENU MOBILE */
+.btn-abrir-menu i{
+    color: #a84849;
+    font-size: 50px;
+}
+
+.menu-mobile{
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+
+}
+
+.menu-mobile nav ul li a{
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+    
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: #a84849;
+    color: white;
+}
+
+.menu-mobile .btn-fechar{
+    padding: 20px 8%;
+}
+
+.menu-mobile .btn-fechar i{
+    color: #a84849;
+    font-size: 35px;
+}
+
+.overlay-menu{
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
 
 
 /* ESTILO TOPO DO SITE */
