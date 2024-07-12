@@ -87,6 +87,10 @@ header nav.menu-desktop ul li{
     font-size: 50px;
 }
 
+.btn-abrir-menu{
+    display: none;
+}
+
 .menu-mobile{
     background-color: white;
     height: 100vh;
@@ -417,4 +421,8 @@ footer .line-footer-baixo a{
         width: 100%;
     }
 
+    /* abri menu */
+    .btn-abrir-menu{
+        display: block;
+    }
 }
